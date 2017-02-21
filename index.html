@@ -1,0 +1,106 @@
+<!DOCTYPE=HTML>
+<html>
+  <head>
+    <title>Celebrity Matchmaker</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>~*Find Your Perfect Celebrity Match*~</h1>
+      </div>
+      <div class="row">
+        <form id="matchmaker">
+          <div class="form-group">
+            <label for="nameInput">Name</label>
+            <input id="nameInput" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="ageInput">Age</label>
+            <input id="ageInput" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="dobInput">Date of Birth</label>
+            <input id="dobInput" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+            <label for="genderInput">Gender</label>
+            <select class="form-control" id="genderInput">
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sexualityInput">Sexuality</label>
+            <select class="form-control" id="sexualityInput">
+              <option>Gay</option>
+              <option>Lesbian</option>
+              <option>Straight</option>
+              <option>Bi</option>
+              <option>Demisexual</option>
+              <option>Queer</option>
+              <option>Asexual</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="zodiacInput">Zodiac Sign</label>
+            <select class="form-control" id="zodiacInput">
+              <option>Aries</option>
+              <option>Taurus</option>
+              <option>Gemini</option>
+              <option>Cancer</option>
+              <option>Leo</option>
+              <option>Virgo</option>
+              <option>Libra</option>
+              <option>Scorpio</option>
+              <option>Sagittarius</option>
+              <option>Capricorn</option>
+              <option>Aquarius</option>
+              <option>Pisces</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="colorInput">Favorite Color</label>
+            <input id="colorInput" class="form-control" type="color">
+          </div>
+          <button type="submit" id="submit" class="btn btn-success">Meet your Match!</button>
+        </form>
+      </div>
+      <div class="row">
+        <div id="shane">
+          <h3>Your celebrity match is Katherine Moennig!</h3>
+          <img src="img/katherine-moennig.jpg" alt="Katherine Moennig">
+        </div>
+        <div id="jeffGoldblum">
+          <h3>Your celebrity match is Jeff Goldblum!</h3>
+          <img src="img/jeff-goldblum.jpg" alt="Jeff Goldblum">
+        </div>
+        <div id="drewBarrymore">
+          <h3>Your celebrity match is Drew Barrymore!</h3>
+          <img src="img/drew-barrymore.jpg" alt="Drew Barrymore">
+        </div>
+        <div id="neilPatrickHarris">
+          <h3>Your celebrity match is Neil Patrick Harris!</h3>
+          <img src="img/neil-patrick-harris.jpg" alt="Neil Patrick Harris">
+        </div>
+      </div>
+      <div class="row">
+        <div id="test">
+          <ul>
+            <li><span class=".name"> </span></li>
+            <li><span class=".age"> </span></li>
+            <li><span class=".dob"> </span></li>
+            <li><span class=".gender"> </span></li>
+            <li><span class=".sexuality"> </span></li>
+            <li><span class=".zodiac"> </span></li>
+            <li><span class=".color"> </span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
