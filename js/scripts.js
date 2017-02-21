@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("form#matchmaker").submit(function(event){
+  $("form#matchmaker").submit(function(){
 
       var name = $("input#nameInput").val();
       var age = parseInt($("input#ageInput").val());
@@ -16,9 +16,6 @@ $(document).ready(function(){
       $(".sexuality").append(sexuality);
       $(".zodiac").append(zodiac);
       $(".color").append(color);
-
-      $("#test").show();
-      event.preventDefault();
 
   });
 
