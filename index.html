@@ -29,21 +29,21 @@
           <div class="form-group">
             <label for="genderInput">Gender</label>
             <select class="form-control" id="genderInput">
-              <option>Male</option>
-              <option>Female</option>
-              <option>Other</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
             </select>
           </div>
           <div class="form-group">
             <label for="sexualityInput">Sexuality</label>
             <select class="form-control" id="sexualityInput">
-              <option>Gay</option>
-              <option>Lesbian</option>
-              <option>Straight</option>
-              <option>Bi</option>
-              <option>Demisexual</option>
-              <option>Queer</option>
-              <option>Asexual</option>
+              <option value="gay">Gay</option>
+              <option value="lesbian">Lesbian</option>
+              <option value="straight">Straight</option>
+              <option value="bi">Bi</option>
+              <option value="demisexual">Demisexual</option>
+              <option value="queer">Queer</option>
+              <option value="asexual">Asexual</option>
             </select>
           </div>
           <div class="form-group">
@@ -64,7 +64,7 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="colorInput">Favorite Color</label>
+            <label class="control-label" for="colorInput">Favorite Color</label>
             <input id="colorInput" class="form-control" type="color">
           </div>
           <button type="submit" id="submit" class="btn btn-success">Meet your Match!</button>
@@ -89,16 +89,8 @@
         </div>
       </div>
       <div class="row">
-        <div id="test">
-          <ul>
-            <li><span class=".name"> </span></li>
-            <li><span class=".age"> </span></li>
-            <li><span class=".dob"> </span></li>
-            <li><span class=".gender"> </span></li>
-            <li><span class=".sexuality"> </span></li>
-            <li><span class=".zodiac"> </span></li>
-            <li><span class=".color"> </span></li>
-          </ul>
+        <div id="noResult">
+          <h3>Sorry <span class="name"> </span>, we couldn't find a match for you!</h3>
         </div>
       </div>
     </div>
