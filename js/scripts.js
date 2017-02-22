@@ -15,14 +15,26 @@ $(document).ready(function(){
       $("form").hide();
       $("#neilPatrickHarris").show();
     } else if (gender === 'female' && sexuality === 'lesbian') {
+        $("form").hide();
         $("#shane").show();
     } else if (gender === 'female' && sexuality === 'straight') {
-      $("#jeffGoldblum").show();
+        $("form").hide();
+        $("#jeffGoldblum").show();
     } else if (gender === 'male' && sexuality === 'straight') {
-      $("#drewBarrymore").show();
+        $("form").hide();
+        $("#drewBarrymore").show();
     } else {
-      $("#noResult").show();
+        $("form").hide();
+        $("#noResult").show();
     }
+
+    $("button#back").click(function(){
+      $("form#matchmaker").show();
+      $("#neilPatrickHarris").hide();
+      $("#shane").hide();
+      $("jeffGoldblum").hide();
+      $("#drewBarrymore").hide();
+    });
 
   });
 
